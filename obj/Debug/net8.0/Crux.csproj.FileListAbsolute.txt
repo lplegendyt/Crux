@@ -1,0 +1,15 @@
+C:\Dev\cpp\Crux\bin\Debug\net8.0\Crux.exe
+C:\Dev\cpp\Crux\bin\Debug\net8.0\Crux.deps.json
+C:\Dev\cpp\Crux\bin\Debug\net8.0\Crux.runtimeconfig.json
+C:\Dev\cpp\Crux\bin\Debug\net8.0\Crux.dll
+C:\Dev\cpp\Crux\bin\Debug\net8.0\Crux.pdb
+C:\Dev\cpp\Crux\obj\Debug\net8.0\Crux.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\cpp\Crux\obj\Debug\net8.0\Crux.AssemblyInfoInputs.cache
+C:\Dev\cpp\Crux\obj\Debug\net8.0\Crux.AssemblyInfo.cs
+C:\Dev\cpp\Crux\obj\Debug\net8.0\Crux.csproj.CoreCompileInputs.cache
+C:\Dev\cpp\Crux\obj\Debug\net8.0\Crux.sourcelink.json
+C:\Dev\cpp\Crux\obj\Debug\net8.0\Crux.dll
+C:\Dev\cpp\Crux\obj\Debug\net8.0\refint\Crux.dll
+C:\Dev\cpp\Crux\obj\Debug\net8.0\Crux.pdb
+C:\Dev\cpp\Crux\obj\Debug\net8.0\Crux.genruntimeconfig.cache
+C:\Dev\cpp\Crux\obj\Debug\net8.0\ref\Crux.dll

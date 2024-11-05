@@ -1,0 +1,6 @@
+// This is an comment
+txout("Hello World!");                  // this prints Hello World!     
+name;                                   // this inits the variable name
+name = txin("What is your name?:")      // this reads the line and puts it into name
+txout($"Hello {name}!")                 // this is printing: Hello name!
+return 0;                               // ends the program with exit code 0

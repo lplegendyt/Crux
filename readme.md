@@ -112,9 +112,4 @@ try {
 
 return 0; // End the program
 ```
-
-### Conclusion
-
-By extending the syntax of Crux with these features, users can create more complex programs and utilize the language more effectively. The proposed enhancements focus on user-friendliness, modularity, and flexibility, ensuring that Crux remains accessible to beginners while providing powerful tools for more advanced programming. As these features are implemented, it’s essential to maintain a clear and understandable syntax to achieve the goal of making programming accessible and enjoyable for all users.
-
 --- 

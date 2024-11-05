@@ -5,7 +5,7 @@ Crux is a beginner-friendly programming language designed with a simple and acce
 
 ## File Extension
 
-Crux source files use the `.crx` file extension, which distinguishes them within development environments.
+Crux source files use the `.crc` file extension, which distinguishes them within development environments.
 
 ## Current Status
 

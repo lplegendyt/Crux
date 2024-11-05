@@ -1,115 +1,122 @@
 
-Crux is designed to be a beginner-friendly programming language with a simple and accessible syntax. As it evolves, there are several ways to expand its syntax to enhance functionality and provide users with more powerful coding tools. Below are some suggestions for extending the Crux syntax, along with explanations of how each feature could work.
+# Crux Programming Language
 
-### Suggested Syntax Extensions
+Crux is a beginner-friendly programming language designed with a simple and accessible syntax. It is a compiled language that allows users to write clear and concise code, making it an ideal choice for both new programmers and those looking to develop simple applications.
+
+## File Extension
+
+Crux source files use the `.crx` file extension, which distinguishes them within development environments.
+
+## Current Status
+
+The Crux compiler is being developed in C# as I learn the language. The project is open-source, and contributions are welcome. You can view and contribute to the project on GitHub: [Crux GitHub Repository](https://github.com/lplegendyt/Crux).
+
+## Basic Syntax
+
+The syntax of Crux is designed to be intuitive and easy to understand. Below are key elements of the Crux syntax:
+
+### 1. Comments
+```plaintext
+// This is a comment
+```
+Comments begin with `//`, allowing users to include explanations or notes within their code.
+
+### 2. Outputting Text
+```plaintext
+txout("Hello World!");                  // Prints "Hello World!"
+```
+The `txout` function is used to output text to the console.
+
+### 3. Variable Initialization
+```plaintext
+name;                                   // Initializes the variable name
+```
+This line initializes a variable called `name`.
+
+### 4. Inputting Text
+```plaintext
+name = txin("What is your name?:")      // Reads input and assigns it to name
+```
+The `txin` function prompts the user for input.
+
+### 5. String Interpolation
+```plaintext
+txout($"Hello {name}!");                 // Outputs "Hello Alice!" if name is "Alice"
+```
+String interpolation allows variables to be included within strings.
+
+### 6. Returning from the Program
+```plaintext
+return 0;                               // Ends the program with exit code 0
+```
+This statement signifies the successful termination of the program.
+
+## Proposed Syntax Extensions
+
+As Crux evolves, several features may be added to enhance its capabilities:
 
 1. **Data Structures**:
-   - **Lists and Arrays**: Introduce syntax for creating and manipulating lists or arrays, which would allow users to store multiple values in a single variable.
+   - **Lists and Arrays**: Syntax for creating and manipulating lists.
      ```plaintext
      myList = [1, 2, 3, 4, 5]; // Initializing a list
-     myList[0]; // Accessing the first element
      ```
 
-   - **Objects/Dictionaries**: Enable the creation of key-value pairs to represent structured data.
+   - **Objects/Dictionaries**: Enable key-value pairs.
      ```plaintext
      person = { "name": "Alice", "age": 30 }; // Creating an object
-     txout(person["name"]); // Outputting the name property
      ```
 
 2. **Control Structures**:
-   - **Conditional Statements**: Expand the syntax to include if-else statements, allowing for decision-making in the code.
+   - **Conditional Statements**:
      ```plaintext
      if (age >= 18) {
          txout("You are an adult.");
-     } else {
-         txout("You are a minor.");
      }
      ```
 
-   - **Loops**: Introduce for and while loops for iteration, enabling users to execute code multiple times.
+   - **Loops**: Introduction of for and while loops.
      ```plaintext
      for (i = 0; i < 10; i++) {
-         txout(i); // Outputs numbers from 0 to 9
-     }
-     
-     while (condition) {
-         // Loop body
+         txout(i);
      }
      ```
 
 3. **Functions**:
-   - **Function Definitions**: Allow users to define their own functions to promote modularity and reusability of code.
+   - **Function Definitions**:
      ```plaintext
      function greet(name) {
          txout($"Hello, {name}!");
      }
-     
-     greet("Alice"); // Calling the function
      ```
 
 4. **Error Handling**:
-   - **Try-Catch Blocks**: Implement a mechanism for handling exceptions, enabling users to manage errors gracefully.
+   - **Try-Catch Blocks**:
      ```plaintext
      try {
-         // Code that might throw an error
+         // Code that may throw an error
      } catch (Exception e) {
          txout($"Error: {e.Message}");
      }
      ```
 
 5. **Modules and Imports**:
-   - **Modularization**: Enable users to import modules or libraries to enhance the capabilities of their programs.
+   - **Modularization**:
      ```plaintext
      import MyLibrary; // Importing a module
      ```
 
-6. **Comments**:
-   - **Multi-line Comments**: Introduce multi-line comments to allow longer explanations or documentation within the code.
-     ```plaintext
-     /* 
-     This is a multi-line comment 
-     that can span multiple lines. 
-     */
-     ```
+6. **Multi-line Comments**:
+   ```plaintext
+   /* 
+   This is a multi-line comment 
+   that can span multiple lines. 
+   */
+   ```
 
-### Example of the Extended Syntax
+## Conclusion
 
-Here is an example of how the extended syntax in Crux could look, integrating the suggested features:
+Crux aims to provide a clear and accessible programming experience, making it suitable for both beginners and experienced developers. The proposed syntax extensions will further enhance its functionality, enabling users to create more complex applications while maintaining an intuitive coding environment.
 
-```plaintext
-// This is a simple program in Crux
+Feel free to explore the repository, provide feedback, and contribute to the development of Crux!
 
-// Define a function
-function greet(name) {
-    txout($"Hello, {name}!");
-}
-
-// Main program
-name = txin("What is your name?:");
-greet(name); // Call the function
-
-age = txin("How old are you?:");
-
-// Conditional statement
-if (age >= 18) {
-    txout("You are an adult.");
-} else {
-    txout("You are a minor.");
-}
-
-// List example
-myList = [1, 2, 3, 4, 5];
-for (i = 0; i < myList.length; i++) {
-    txout(myList[i]); // Output each element in the list
-}
-
-// Try-catch example
-try {
-    // Code that may cause an error
-} catch (Exception e) {
-    txout($"Error: {e.Message}");
-}
-
-return 0; // End the program
-```
---- 
+---
